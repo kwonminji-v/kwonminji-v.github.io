@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: kakao;
 }
 
 html,
@@ -49,7 +50,7 @@ a {
 }
 
 .navbar .logo a {
-    color: #fff;
+    color: #3c3c3c;
     font-size: 35px;
     font-weight: 600;
 }
@@ -58,7 +59,7 @@ a {
     color: #FFC400;
     /* color: #00498c; */
     transition: all 0.3s ease;
-    font-family:'kakao', Gothic+A1 sans-serif;
+    font-family:'kakao', sans-serif;
 }
 
 .navbar.sticky .logo a span {
@@ -127,9 +128,9 @@ a {
 /* home section styling */
 .home {
     display: flex;
-    background: url("images/banner1.jpg") center;
+    background: url("images/banner.png") center;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     color: #fff;
     min-height: 500px;
     font-family: 'kakao','Ubuntu', sans-serif;
@@ -192,7 +193,7 @@ section {
 
 #portfolio {
     color: #fff;
-    background: #111;
+    background: #282828;
 }
 
 #about {
@@ -279,8 +280,8 @@ section .title::after {
 }
 
 .about .about-content .left img {
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     object-fit: fill;
     border-radius: 6px;
 }
@@ -459,7 +460,7 @@ section .title::after {
 }
 
 .portfolio .title::after {
-    background: #111;
+    background: #282828;
     content: "What i made";
 }
 
